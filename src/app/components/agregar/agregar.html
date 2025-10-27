@@ -1,0 +1,12 @@
+<h3>Agregar producto</h3>
+
+<form (ngSubmit)="onSubmit()" class="agregar-form">
+  <input
+    type="text"
+    [(ngModel)]="nombre"
+    name="nombre"
+    placeholder="Nombre del producto"
+    aria-label="Nombre del producto" />
+
+  <button type="submit">Agregar</button>
+</form>

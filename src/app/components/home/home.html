@@ -1,0 +1,15 @@
+
+<app-agregar (add)="onProductAdded($event)"></app-agregar>
+
+
+<p *ngIf="justAdded" class="ok-msg">Producto agregado</p>
+
+
+<button class="fab" (click)="toggleCart()" aria-label="Abrir carrito" title="Abrir carrito">
+  🛒
+</button>
+
+
+<div class="cart-container" *ngIf="showCart">
+  <app-cart [products]="products"></app-cart>
+</div>

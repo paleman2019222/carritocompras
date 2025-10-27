@@ -1,0 +1,11 @@
+.cart {
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: .8rem;
+    padding: 1rem;
+    box-shadow: 0 6px 20px rgba(0,0,0,.08);
+  }
+  .cart h3 { margin: 0 0 .5rem; }
+  .cart ul { margin: 0; padding-left: 1rem; }
+  .empty { color: #6b7280; margin: .25rem 0 0; }
+  

@@ -1,0 +1,12 @@
+<div class="cart">
+    <h3>Carrito</h3>
+  
+    <ul *ngIf="products?.length; else empty">
+      <li *ngFor="let p of products">{{ p }}</li>
+    </ul>
+  
+    <ng-template #empty>
+      <p class="empty">Aún no hay productos.</p>
+    </ng-template>
+  </div>
+  
